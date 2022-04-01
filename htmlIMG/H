@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width, initial-scale=1"/>
+<title>HTML5클라이언트 사이드 이미지맵 실습</title>
+</head>
+<body>
+ <a><img src= "https://user-images.githubusercontent.com/100753039/161265985-257682e8-1768-4678-a6a4-e89e1c032ac7.png"alt="H"/></a>
+</body>
+</html>
