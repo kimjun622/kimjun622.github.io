@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>음식점 예약 화면</title></head>
+<body><section><form action="http//hsptogo.herokuapp.com/jspsrc/reservation1.jsp"method="post">
+ <fiedlset><legnend>예약자 정보</legnend>
+ <label for="datex">이름</label>
+ <input type="text" id="namex" name="namex"/><br/>
+ <label for="numex">휴대전화:</label>
+ <input type="tel" id="numberx" name="numberx" placeholder="00*-000*-0000" pattern="[0-9]{2,3}-[0,9]{3,4}-[0-9]{4}"/><br/>
+ <label for="personx">인원:</label>
+ <input type="number" id="personx" name="personx" min="1" step="1"/>
+</fiedlset>
+<fiedlset><legend>약속 날짜 시간 입력</legend>
+ <label for="datex">날짜:</label><input type="date" id="datex" name="datex"/>
+ <label for="timex">시간:</label><input type="time" id="timex" name="timex"/></fiedlset>
+ <fiedlset><legend>메뉴입력</legend>
+ <label for="mealx">식사시간</label><select id="mealx" name="mealtime"><option value="아침">아침</option><option value="점심">점심</option><option value="저녁">저녁</option></select>
+ <label for="manux">메뉴</label><select id="manux" name="meal" multiple><option value="백미">백미</option><option value="라면">라면</option><option value="김치">김치</option></select>
+ </fiedlset>
+ <button type="submit">입력</button>
+ <input type="rest" name="reset1" value="취소">
+</form>
+</section>
+</body></html>
