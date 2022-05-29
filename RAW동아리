@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+ul.a{list-style-type:cicrle;}
+</style>
+<title>동아리</title></head>
+<body><section><h3>동아리 목록</h3>
+<ul class="a"><li>SunRise(대전대학교 esports동아리</li><li>Kingz(영상 편집 동아리)</li><li>ECCA(전국 Esports 총동아리 협회)-이스포츠팀 멤버</li><a href="https://www.facebook.com/eSportsCCA">ECCA페이스북 사이트</a></ul>
+  
+</section>
+
+</body>
+
+</html>
